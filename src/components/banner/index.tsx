@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Button } from '@material-ui/core'
 import './index.css'
+import SearchDate from '../searchDate'
 
 function Banner() {
 
@@ -12,6 +13,7 @@ function Banner() {
                 <Button onClick={() => setShowSearch(!showSearch)} variant='outlined' className='banner__searchButton'>
                     Search Dates
                 </Button>
+                {showSearch && <SearchDate />}
             </div>
             <div className='banner__info'>
                 <h1>

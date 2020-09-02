@@ -11,8 +11,7 @@
 
 ## 💻 Sobre o projeto
 
-Airbnb clone based on @CleverProgrammer, static data
----
+based on @CleverProgrammer, static data
 
 ## ⚙️ Funcionalidades
 
